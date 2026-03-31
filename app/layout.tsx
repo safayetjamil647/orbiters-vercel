@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Sora, Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 const sora = Sora({
@@ -28,6 +29,7 @@ export default function RootLayout({
     <html lang="en" className={`${sora.variable} ${inter.variable} scroll-smooth`}>
       <body className="antialiased">
         {children}
+        <Analytics />
       </body>
     </html>
   );
