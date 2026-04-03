@@ -8,6 +8,7 @@ import Marquee from "../components/Marquee";
 import Solutions from "../components/Solutions";
 import Process from "../components/Process";
 import Trust from "../components/Trust";
+import FAQ from "../components/FAQ";
 import CTABand from "../components/CTABand";
 import Footer from "../components/Footer";
 
@@ -24,6 +25,7 @@ export default function Home() {
         <Solutions />
         <Process />
         <Trust />
+        <FAQ />
         <CTABand />
       </main>
       <Footer />

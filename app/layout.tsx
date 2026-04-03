@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Sora, Inter } from "next/font/google";
-import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
+import JsonLd from "../components/JsonLd";
+import { Analytics } from "@vercel/analytics/next";
 
 const sora = Sora({
   subsets: ["latin"],
@@ -16,8 +17,33 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Orbiters — Automotive Digital Marketing & Technology Agency",
-  description: "Digital marketing and design agency built exclusively for automotive businesses and SaaS companies.",
+  title: {
+    template: "%s | Orbiters",
+    default: "Orbiters — Automotive Digital Marketing & Technology Agency",
+  },
+  description: "Accelerate your automotive brand with Orbiters. We're the specialized digital marketing and design agency for car dealerships and automotive SaaS companies.",
+  keywords: ["automotive marketing", "car dealer ads", "automotive SEO", "EV marketing", "automotive SaaS design", "lead response technology"],
+  authors: [{ name: "Orbiters Team" }],
+  metadataBase: new URL('https://orbiters.io'),
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://orbiters.io",
+    siteName: "Orbiters",
+    title: "Orbiters — Automotive Digital Marketing & Technology Agency",
+    description: "Technology and marketing that puts your automotive business in orbit. Specialized in Ads, SEO, and SaaS design.",
+    images: ["/og-image.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Orbiters | Automotive Digital Agency",
+    description: "Fueling the digital transformation of the automotive industry.",
+    images: ["/og-image.png"],
+    creator: "@orbiters_io",
+  },
 };
 
 export default function RootLayout({
@@ -28,6 +54,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${sora.variable} ${inter.variable} scroll-smooth`}>
       <body className="antialiased">
+        <JsonLd />
         {children}
         <Analytics />
       </body>

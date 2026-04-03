@@ -1,14 +1,15 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
     <footer>
       <div className="footer-grid">
         <div className="footer-brand">
-          <div className="footer-logo-wrap">
+          <Link href="/" className="footer-logo-wrap">
             <div className="footer-logo-mark"></div>
             <span className="footer-logo-text">ORBIT<span>ERS</span></span>
-          </div>
+          </Link>
           <p className="footer-desc">Digital marketing and design agency built exclusively for automotive businesses and SaaS companies worldwide.</p>
           <div className="footer-contact">
             <div>Sales: <a href="tel:+18880000000">+1 (888) 000-0000</a></div>
@@ -39,11 +40,11 @@ export default function Footer() {
         <div>
           <div className="footer-col-title">Company</div>
           <div className="footer-links">
-            <a href="#">About Us</a>
-            <a href="#">Our Work</a>
-            <a href="#">Blog</a>
+            <Link href="/company">About Us</Link>
+            <Link href="/work">Our Work</Link>
+            <Link href="/resources">Blog</Link>
             <a href="#">Careers</a>
-            <a href="#">Contact</a>
+            <Link href="/demo">Contact</Link>
           </div>
         </div>
       </div>
