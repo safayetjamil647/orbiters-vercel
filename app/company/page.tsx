@@ -16,12 +16,12 @@ export default function CompanyPage() {
       <UtilityBar />
       <Navbar />
       <main>
-        <section className="hero">
+        <section className="hero hero-center">
           <div className="hero-grid-bg"></div>
           <div className="hero-glow"></div>
-          <div className="hero-inner" style={{ gridTemplateColumns: '1fr', textAlign: 'center' }}>
-            <div className="hero-left" style={{ maxWidth: '800px', margin: '0 auto' }}>
-              <div className="hero-eyebrow" style={{ justifyContent: 'center' }}>
+          <div className="hero-inner">
+            <div className="hero-left">
+              <div className="hero-eyebrow">
                 <span className="hero-eyebrow-dot"></span>
                 About Orbiters
               </div>

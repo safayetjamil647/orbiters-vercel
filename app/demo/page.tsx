@@ -32,7 +32,7 @@ export default function DemoPage() {
                 Our team of experts is ready to show you how Orbiters can help you attract more customers, optimize your digital footprint, and scale your business with ease.
               </p>
               
-              <div className="hero-right" style={{ marginTop: '32px' }}>
+              <div className="hero-features" style={{ marginTop: '32px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
                 <div className="hero-card">
                   <div className="hero-card-top">
                     <div className="hero-card-icon">🚀</div>
@@ -50,14 +50,14 @@ export default function DemoPage() {
               </div>
             </div>
             
-            <div className="hero-right" style={{ background: 'var(--white)', padding: '40px', borderRadius: '16px', boxShadow: '0 12px 48px rgba(0,0,0,0.15)' }}>
+            <div className="hero-right demo-form-container" style={{ background: 'var(--white)', padding: '40px', borderRadius: '16px', boxShadow: '0 12px 48px rgba(0,0,0,0.15)' }}>
               <div className="section-header" style={{ textAlign: 'left', marginBottom: '24px' }}>
                 <h2 className="section-title" style={{ fontSize: '24px', color: 'var(--navy)' }}>Request Your Demo</h2>
                 <p className="section-sub" style={{ margin: '0', fontSize: '14px', color: 'var(--text-light)' }}>Complete the form below and an Orbiters specialist will reach out within 24 hours.</p>
               </div>
               
               <form style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+                <div className="form-row">
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
                     <label style={{ fontSize: '12px', fontWeight: '600', color: 'var(--navy)' }}>Full Name</label>
                     <input type="text" placeholder="John Doe" style={{ padding: '12px', borderRadius: '8px', border: '1px solid var(--gray-200)', fontSize: '14px' }} />

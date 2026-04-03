@@ -41,12 +41,12 @@ export default function MarketsHub() {
       <UtilityBar />
       <Navbar />
       <main>
-        <section className="hero">
+        <section className="hero hero-center">
           <div className="hero-grid-bg"></div>
           <div className="hero-glow"></div>
-          <div className="hero-inner" style={{ gridTemplateColumns: '1fr', textAlign: 'center' }}>
-            <div className="hero-left" style={{ maxWidth: '800px', margin: '0 auto' }}>
-              <div className="hero-eyebrow" style={{ justifyContent: 'center' }}>
+          <div className="hero-inner">
+            <div className="hero-left">
+              <div className="hero-eyebrow">
                 <span className="hero-eyebrow-dot"></span>
                 Target Industries
               </div>
@@ -71,7 +71,7 @@ export default function MarketsHub() {
               </p>
             </div>
 
-            <div className="challenges-grid" style={{ gridTemplateColumns: 'repeat(3, 1fr)' }}>
+            <div className="challenges-grid">
               {markets.map((market) => (
                 <div key={market.title} className="challenge-card">
                   <div className="challenge-num">{market.icon}</div>
