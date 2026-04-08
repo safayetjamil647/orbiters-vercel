@@ -17,13 +17,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/markets',
     '/markets/dealerships',
     '/markets/ev-fleet',
-    '/markets/saas'
+    '/markets/saas',
   ]
 
   return routes.map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
-    changeFrequency: route === '' ? 'daily' : 'weekly',
-    priority: route === '' ? 1 : 0.8,
+    changeFrequency: route === '' ? 'daily' : 'weekly' as any,
+    priority: route === '' ? 1.0 : (route.split('/').length > 2 ? 0.6 : 0.8),
   }))
 }

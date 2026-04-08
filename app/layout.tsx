@@ -26,7 +26,21 @@ export const metadata: Metadata = {
   authors: [{ name: "Orbiters Team" }],
   metadataBase: new URL('https://orbiters.io'),
   alternates: {
-    canonical: '/',
+    canonical: './',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    google: "YOUR_GOOGLE_VERIFICATION_CODE", // Replace with your actual code
   },
   openGraph: {
     type: "website",
