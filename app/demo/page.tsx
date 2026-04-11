@@ -5,8 +5,8 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 
 export const metadata: Metadata = {
-  title: "Book a Free Demo",
-  description: "Schedule your free automotive growth consultation and see how Orbiters can accelerate your brand.",
+  title: "Book a Free Demo | Orbiters",
+  description: "Schedule your free growth consultation and see how Orbiters can accelerate your brand across Fintech, Medicare, and Automotive.",
 };
 
 export default function DemoPage() {
@@ -26,7 +26,7 @@ export default function DemoPage() {
               </div>
               <h1 className="hero-headline">
                 Ready to accelerate your<br />
-                <span className="hl">Automotive Growth?</span>
+                <span className="hl">Business Growth?</span>
               </h1>
               <p className="hero-sub">
                 Our team of experts is ready to show you how Orbiters can help you attract more customers, optimize your digital footprint, and scale your business with ease.
@@ -38,7 +38,7 @@ export default function DemoPage() {
                     <div className="hero-card-icon">🚀</div>
                     <div className="hero-card-title">Personalized Growth Roadmap</div>
                   </div>
-                  <div className="hero-card-desc">During our demo, we'll provide a custom strategy for your specific business goals.</div>
+                  <div className="hero-card-desc">During our demo, we'll provide a custom strategy for your specific sector and business goals.</div>
                 </div>
                 <div className="hero-card">
                   <div className="hero-card-top">
@@ -70,16 +70,16 @@ export default function DemoPage() {
                 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
                   <label style={{ fontSize: '12px', fontWeight: '600', color: 'var(--navy)' }}>Company Name</label>
-                  <input type="text" placeholder="Orbiters Auto Group" style={{ padding: '12px', borderRadius: '8px', border: '1px solid var(--gray-200)', fontSize: '14px' }} />
+                  <input type="text" placeholder="Orbiters Group" style={{ padding: '12px', borderRadius: '8px', border: '1px solid var(--gray-200)', fontSize: '14px' }} />
                 </div>
                 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                  <label style={{ fontSize: '12px', fontWeight: '600', color: 'var(--navy)' }}>Market Type</label>
+                  <label style={{ fontSize: '12px', fontWeight: '600', color: 'var(--navy)' }}>Industry Type</label>
                   <select style={{ padding: '12px', borderRadius: '8px', border: '1px solid var(--gray-200)', fontSize: '14px', background: 'white' }}>
-                    <option>Auto Dealership</option>
-                    <option>EV & Fleet</option>
-                    <option>Automotive SaaS</option>
-                    <option>Other</option>
+                    <option>Fintech</option>
+                    <option>Medicare / Healthcare</option>
+                    <option>Automotive</option>
+                    <option>Other Specialized SaaS</option>
                   </select>
                 </div>
                 
@@ -104,3 +104,4 @@ export default function DemoPage() {
     </>
   );
 }
+

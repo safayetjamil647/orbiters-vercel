@@ -2,9 +2,9 @@ import { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Orbiters — Automotive Digital Agency',
+    name: 'Orbiters — Specialized Digital Agency',
     short_name: 'Orbiters',
-    description: 'Specialized digital marketing and technology for the automotive industry.',
+    description: 'Digital marketing and technology for Fintech, Medicare, and Automotive scale-ups.',
     start_url: '/',
     display: 'standalone',
     background_color: '#0B1120',
@@ -18,3 +18,4 @@ export default function manifest(): MetadataRoute.Manifest {
     ],
   }
 }
+

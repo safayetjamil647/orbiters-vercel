@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="footer-logo-mark"></div>
             <span className="footer-logo-text">ORBIT<span>ERS</span></span>
           </Link>
-          <p className="footer-desc">Digital marketing and design agency built exclusively for automotive businesses and SaaS companies worldwide.</p>
+          <p className="footer-desc">Digital marketing and design agency built for Fintech, Medicare, and Automotive scale-ups worldwide.</p>
           <div className="footer-contact">
             <div>Sales: <a href="tel:+18880000000">+1 (888) 000-0000</a></div>
             <div>Email: <a href="mailto:hello@orbiters.io">hello@orbiters.io</a></div>
@@ -31,10 +31,10 @@ export default function Footer() {
         <div>
           <div className="footer-col-title">Markets</div>
           <div className="footer-links">
-            <a href="#">Auto Dealerships</a>
-            <a href="#">EV & Fleet</a>
-            <a href="#">Automotive SaaS</a>
-            <a href="#">Specialty Dealers</a>
+            <Link href="/markets/automotive">Automotive</Link>
+            <Link href="/markets/fintech">Fintech</Link>
+            <Link href="/markets/medicare">Medicare</Link>
+            <Link href="/markets/saas">Industry SaaS</Link>
           </div>
         </div>
         <div>
@@ -59,3 +59,4 @@ export default function Footer() {
     </footer>
   );
 }
+

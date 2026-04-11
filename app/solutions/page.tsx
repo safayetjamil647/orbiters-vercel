@@ -7,15 +7,15 @@ import CTABand from "../../components/CTABand";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Automotive Growth Solutions",
-  description: "Explore our full suite of digital marketing and technology solutions built exclusively for the automotive industry.",
+  title: "Growth Solutions | Orbiters",
+  description: "Explore our full suite of digital marketing and technology solutions built for Fintech, Medicare, and Automotive scale-ups.",
 };
 
 export default function SolutionsHub() {
   const solutions = [
     {
       title: "Attract New Clients",
-      desc: "Digital ads, social media & SEO for automotive brands seeking high-intent buyers.",
+      desc: "Digital ads, social media & SEO for specialized brands seeking high-intent customers.",
       icon: "🎯",
       href: "/solutions/attract-clients",
       tags: ["Ads", "SEO", "Social"]
@@ -29,14 +29,14 @@ export default function SolutionsHub() {
     },
     {
       title: "Build Reputation",
-      desc: "Reputation management tools that automate reviews and protect your brand.",
+      desc: "Reputation management tools that automate reviews and protect your brand authority.",
       icon: "⭐",
       href: "/solutions/build-reputation",
       tags: ["Reviews", "Trust", "Authority"]
     },
     {
       title: "Design & Development",
-      desc: "Production-grade UI/UX and product builds for automotive SaaS and platforms.",
+      desc: "Production-grade UI/UX and product builds for industry-leading SaaS and platforms.",
       icon: "🛠️",
       href: "/solutions/design-development",
       tags: ["UI/UX", "SaaS", "React"]
@@ -59,10 +59,10 @@ export default function SolutionsHub() {
               </div>
               <h1 className="hero-headline">
                 Full-Stack Growth for<br />
-                <span className="hl">Automotive Innovators.</span>
+                <span className="hl">Multi-Sector Innovators.</span>
               </h1>
               <p className="hero-sub" style={{ maxWidth: '100%' }}>
-                Orbiters provides the technical engine and creative fuel to help your automotive business scale across digital channels.
+                Orbiters provides the technical engine and creative fuel to help your specialized business scale across digital channels.
               </p>
             </div>
           </div>
@@ -100,3 +100,4 @@ export default function SolutionsHub() {
     </>
   );
 }
+

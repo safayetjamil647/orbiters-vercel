@@ -15,9 +15,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/solutions/build-reputation',
     '/solutions/design-development',
     '/markets',
-    '/markets/dealerships',
-    '/markets/ev-fleet',
-    '/markets/saas',
+    '/markets/automotive',
+    '/markets/fintech',
+    '/markets/medicare',
   ]
 
   return routes.map((route) => ({
@@ -27,3 +27,4 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: route === '' ? 1.0 : (route.split('/').length > 2 ? 0.6 : 0.8),
   }))
 }
+

@@ -41,8 +41,8 @@ export default function Navbar() {
               <Link href="/solutions/attract-clients" className="dropdown-item" onClick={() => setIsOpen(false)}>
                 <div className="dropdown-icon">🎯</div>
                 <div>
-                  <div className="dropdown-label">Attract New Clients</div>
-                  <div className="dropdown-sub">Digital ads, social media & SEO for automotive brands</div>
+                <div className="dropdown-label">Attract New Clients</div>
+                  <div className="dropdown-sub">Digital ads, social media & SEO for high-growth brands</div>
                 </div>
               </Link>
               <Link href="/solutions/convert-leads" className="dropdown-item" onClick={() => setIsOpen(false)}>
@@ -77,25 +77,25 @@ export default function Navbar() {
               </svg>
             </Link>
             <div className="dropdown">
-              <Link href="/markets/dealerships" className="dropdown-item" onClick={() => setIsOpen(false)}>
+              <Link href="/markets/automotive" className="dropdown-item" onClick={() => setIsOpen(false)}>
                 <div className="dropdown-icon">🚗</div>
                 <div>
-                  <div className="dropdown-label">Auto Dealerships</div>
-                  <div className="dropdown-sub">New & used car dealers, franchise networks</div>
+                  <div className="dropdown-label">Automotive</div>
+                  <div className="dropdown-sub">Dealerships, EV brands & fleet management software</div>
                 </div>
               </Link>
-              <Link href="/markets/ev-fleet" className="dropdown-item" onClick={() => setIsOpen(false)}>
-                <div className="dropdown-icon">⚡</div>
+              <Link href="/markets/fintech" className="dropdown-item" onClick={() => setIsOpen(false)}>
+                <div className="dropdown-icon">💳</div>
                 <div>
-                  <div className="dropdown-label">EV & Fleet</div>
-                  <div className="dropdown-sub">Electric vehicle brands & fleet management</div>
+                  <div className="dropdown-label">Fintech</div>
+                  <div className="dropdown-sub">Banking, payments, insurance & financial SaaS</div>
                 </div>
               </Link>
-              <Link href="/markets/saas" className="dropdown-item" onClick={() => setIsOpen(false)}>
-                <div className="dropdown-icon">💻</div>
+              <Link href="/markets/medicare" className="dropdown-item" onClick={() => setIsOpen(false)}>
+                <div className="dropdown-icon">🏥</div>
                 <div>
-                  <div className="dropdown-label">Automotive SaaS</div>
-                  <div className="dropdown-sub">Software companies serving the auto industry</div>
+                  <div className="dropdown-label">Medicare</div>
+                  <div className="dropdown-sub">Healthcare providers, insurance & patient platforms</div>
                 </div>
               </Link>
             </div>

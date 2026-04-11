@@ -6,8 +6,8 @@ import Footer from "../../../components/Footer";
 import CTABand from "../../../components/CTABand";
 
 export const metadata: Metadata = {
-  title: "Attract New Clients | Specialized Automotive Advertising",
-  description: "Reach high-intent automotive buyers with precision Google & Social Ads designed for maximum ROI.",
+  title: "Attract New Clients | Specialized Multi-Sector Advertising",
+  description: "Reach high-intent customers in Fintech, Medicare, and Automotive with precision Google & Social Ads designed for maximum ROI.",
 };
 
 export default function AttractClientsPage() {
@@ -30,7 +30,7 @@ export default function AttractClientsPage() {
                 <span className="hl">with Targeted Ads.</span>
               </h1>
               <p className="hero-sub">
-                Put your automotive brand in front of high-intent buyers exactly when they're looking to purchase. Our data-driven ad strategies ensure your budget works harder.
+                Put your brand in front of high-intent customers exactly when they're looking for your services. Our data-driven ad strategies ensure your budget works harder across Fintech, Medicare, and Automotive sectors.
               </p>
             </div>
             <div className="hero-right">
@@ -39,14 +39,14 @@ export default function AttractClientsPage() {
                   <div className="hero-card-icon">🎯</div>
                   <div className="hero-card-title">Precision Targeting</div>
                 </div>
-                <div className="hero-card-desc">We reach buyers based on vehicle search history, brand interest, and geographic proximity to your showroom.</div>
+                <div className="hero-card-desc">We reach customers based on search history, sector intent, and demographic profiles tailored to your ideal audience.</div>
               </div>
               <div className="hero-card">
                 <div className="hero-card-top">
                   <div className="hero-card-icon">⚡</div>
                   <div className="hero-card-title">Retargeting Engine</div>
                 </div>
-                <div className="hero-card-desc">Bring back previous visitors with dynamic ads showing exactly what they viewed on your inventory page.</div>
+                <div className="hero-card-desc">Bring back previous visitors with dynamic ads showing exactly the products or services they viewed on your platform.</div>
               </div>
             </div>
           </div>
@@ -58,26 +58,26 @@ export default function AttractClientsPage() {
               <span className="section-tag">Capabilities</span>
               <h2 className="section-title">Multi-Channel Dominance</h2>
               <p className="section-sub">
-                We leverage every major digital channel to create a cohesive attraction machine for your dealership or SaaS.
+                We leverage every major digital channel to create a cohesive attraction machine for your specialized brand or SaaS.
               </p>
             </div>
 
             <div className="challenges-grid">
               <div className="challenge-card">
                 <h3 className="challenge-title">Google & Search Ads</h3>
-                <p className="challenge-desc">Dominate automotive-related search queries with precision PPC campaigns designed for maximum conversion.</p>
+                <p className="challenge-desc">Dominate industry-related search queries with precision PPC campaigns designed for maximum conversion and compliance.</p>
               </div>
               <div className="challenge-card">
                 <h3 className="challenge-title">Social Media Ads</h3>
-                <p className="challenge-desc">Vibrant, engaging creative on Meta, Instagram, and TikTok that reaches buyers on their favorite platforms.</p>
+                <p className="challenge-desc">Vibrant, engaging creative on Meta, Instagram, and LinkedIn that reaches decision-makers and high-intent consumers.</p>
               </div>
               <div className="challenge-card">
                 <h3 className="challenge-title">YouTube & Video</h3>
-                <p className="challenge-desc">High-production value video ads that tell your brand story and showcase your inventory in action.</p>
+                <p className="challenge-desc">High-production value video ads that tell your brand story and showcase your platform in action.</p>
               </div>
               <div className="challenge-card">
-                <h3 className="challenge-title">Automotive SEO</h3>
-                <p className="challenge-desc">Long-term organic authority built through specialized local SEO and keyword-rich content strategies.</p>
+                <h3 className="challenge-title">Specialized SEO</h3>
+                <p className="challenge-desc">Long-term organic authority built through local SEO and sector-specific keyword-rich content strategies.</p>
               </div>
             </div>
           </div>
@@ -89,3 +89,4 @@ export default function AttractClientsPage() {
     </>
   );
 }
+

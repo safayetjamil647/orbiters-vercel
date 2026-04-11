@@ -6,8 +6,8 @@ import Footer from "../../components/Footer";
 import CTABand from "../../components/CTABand";
 
 export const metadata: Metadata = {
-  title: "Our Work",
-  description: "Discover how Orbiters has transformed automotive brands and scaled SaaS products with data-driven design and marketing.",
+  title: "Our Work | Orbiters",
+  description: "Discover how Orbiters has transformed specialized brands across Fintech, Medicare, and Automotive with data-driven design and marketing.",
 };
 
 export default function WorkPage() {
@@ -26,11 +26,11 @@ export default function WorkPage() {
                 Our Work
               </div>
               <h1 className="hero-headline">
-                Technological engine for<br />
-                <span className="hl">Automotive Leaders.</span>
+                The technical engine for<br />
+                <span className="hl">Specialized Leaders.</span>
               </h1>
               <p className="hero-sub" style={{ maxWidth: '100%' }}>
-                Explore how we've helped automotive businesses and SaaS innovators scale their digital presence, optimize their lead generation, and build high-performance products.
+                Explore how we've helped innovators in Fintech, Medicare, and Automotive scale their digital presence, optimize their lead generation, and build high-performance products.
               </p>
             </div>
           </div>
@@ -40,46 +40,46 @@ export default function WorkPage() {
           <div className="section-inner">
             <div className="section-header">
               <span className="section-tag">Case Studies</span>
-              <h2 className="section-title">Success Stories</h2>
+              <h2 className="section-title">Sector Success Stories</h2>
               <p className="section-sub">
-                Our portfolio highlights our commitment to data-driven results and creative excellence in the automotive sector.
+                Our portfolio highlights our commitment to data-driven results and creative excellence across high-stakes industries.
               </p>
             </div>
 
             <div className="challenges-grid">
               <div className="challenge-card" style={{ padding: '0', overflow: 'hidden' }}>
-                <div style={{ background: 'var(--navy)', height: '240px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '48px' }}>🚗</div>
+                <div style={{ background: 'var(--navy)', height: '240px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '48px' }}>💳</div>
                 <div style={{ padding: '28px' }}>
-                  <div className="challenge-num">Automotive Dealer Network</div>
-                  <h3 className="challenge-title">Scaling 14 Dealership Locations</h3>
-                  <p className="challenge-desc">Developed a unified digital marketing strategy and lead response engine that increased conversion rates by 42% across all 14 locations.</p>
+                  <div className="challenge-num">Fintech Scale-up</div>
+                  <h3 className="challenge-title">Scaling a Global Neo-bank</h3>
+                  <p className="challenge-desc">Developed a multi-channel acquisition engine that decreased CAC by 35% while scaling active monthly users from 50k to 500k in 12 months.</p>
                   <a href="#" className="challenge-link">Full Case Study →</a>
                 </div>
               </div>
               <div className="challenge-card" style={{ padding: '0', overflow: 'hidden' }}>
-                <div style={{ background: 'var(--navy-mid)', height: '240px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '48px' }}>⚡</div>
+                <div style={{ background: 'var(--navy-mid)', height: '240px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '48px' }}>🏥</div>
                 <div style={{ padding: '28px' }}>
-                  <div className="challenge-num">EV Charging Infrastructure</div>
-                  <h3 className="challenge-title">Brand Building for EV Power</h3>
-                  <p className="challenge-desc">A complete creative redesign and digital launch for a leading EV charging network, generating 5k high-intent B2B leads in the first quarter.</p>
+                  <div className="challenge-num">Medicare Provider</div>
+                  <h3 className="challenge-title">Patient Acquisition Mastery</h3>
+                  <p className="challenge-desc">A complete digital overhaul for a regional Medicare network, integrating HIPAA-compliant lead capture and generating 10k+ new enrollments.</p>
                   <a href="#" className="challenge-link">Full Case Study →</a>
                 </div>
               </div>
               <div className="challenge-card" style={{ padding: '0', overflow: 'hidden' }}>
-                <div style={{ background: 'var(--navy-light)', height: '240px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '48px' }}>💻</div>
+                <div style={{ background: 'var(--navy-light)', height: '240px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '48px' }}>🚗</div>
                 <div style={{ padding: '28px' }}>
-                  <div className="challenge-num">Automotive SaaS Provider</div>
-                  <h3 className="challenge-title">Next-Gen Dealer Dashboard</h3>
-                  <p className="challenge-desc">UI/UX design and frontend development for a cutting-edge automotive inventory management system used by national dealership chains.</p>
+                  <div className="challenge-num">Automotive Retail Group</div>
+                  <h3 className="challenge-title">Next-Gen Dealer Transformation</h3>
+                  <p className="challenge-desc">UI/UX design and frontend development for a unified inventory marketplace used by national dealership chains to drive digital sales.</p>
                   <a href="#" className="challenge-link">Full Case Study →</a>
                 </div>
               </div>
               <div className="challenge-card" style={{ padding: '0', overflow: 'hidden' }}>
-                <div style={{ background: 'var(--teal-dark)', height: '240px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '48px' }}>🚀</div>
+                <div style={{ background: 'var(--teal-dark)', height: '240px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '48px' }}>📈</div>
                 <div style={{ padding: '28px' }}>
-                  <div className="challenge-num">Pre-Owned Marketplace</div>
-                  <h3 className="challenge-title">Digital Transformation for Used Cars</h3>
-                  <p className="challenge-desc">Transforming a traditional pre-owned dealership into a high-growth digital marketplace with integrated chat and lead response automation.</p>
+                  <div className="challenge-num">SaaS Analytics Platform</div>
+                  <h3 className="challenge-title">UI/UX for Specialized Data</h3>
+                  <p className="challenge-desc">Designing complex dashboards and predictive analytics tools for industry-specific SaaS platforms that require high-density data visualization.</p>
                   <a href="#" className="challenge-link">Full Case Study →</a>
                 </div>
               </div>
@@ -93,3 +93,4 @@ export default function WorkPage() {
     </>
   );
 }
+

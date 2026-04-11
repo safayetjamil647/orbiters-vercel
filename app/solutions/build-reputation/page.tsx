@@ -6,8 +6,8 @@ import Footer from "../../../components/Footer";
 import CTABand from "../../../components/CTABand";
 
 export const metadata: Metadata = {
-  title: "Build Reputation & Brand Authority",
-  description: "Automate automotive review requests and protect your dealership's 5-star reputation across Google and social platforms.",
+  title: "Build Reputation & Authority | Orbiters",
+  description: "Automate review requests and protect your brand's 5-star reputation across high-stakes industries like Fintech and Medicare.",
 };
 
 export default function BuildReputationPage() {
@@ -26,11 +26,11 @@ export default function BuildReputationPage() {
                 Solution: Build Reputation
               </div>
               <h1 className="hero-headline">
-                The 5-star brand<br />
+                The brand authority<br />
                 <span className="hl">your customers trust.</span>
               </h1>
               <p className="hero-sub">
-                In automotive, reputation is everything. We help you automate review requests, manage consumer feedback, and build a brand authority that drives sales.
+                In specialized sectors, reputation is everything. We help you automate review requests, manage consumer feedback, and build a brand authority that drives conversions.
               </p>
             </div>
             <div className="hero-right">
@@ -39,14 +39,14 @@ export default function BuildReputationPage() {
                   <div className="hero-card-icon">⭐</div>
                   <div className="hero-card-title">Review Automation</div>
                 </div>
-                <div className="hero-card-desc">Automatically request reviews after a sale or service appointment, and boost your local rankings effortlessly.</div>
+                <div className="hero-card-desc">Automatically request reviews after a customer interaction, and boost your local and industry rankings effortlessly.</div>
               </div>
               <div className="hero-card">
                 <div className="hero-card-top">
                   <div className="hero-card-icon">🔐</div>
                   <div className="hero-card-title">Brand Protection</div>
                 </div>
-                <div className="hero-card-desc">Keep your 5-star profiles safe with active monitoring and structured response management across all platforms.</div>
+                <div className="hero-card-desc">Keep your profiles safe with active monitoring and structured response management across all critical platforms.</div>
               </div>
             </div>
           </div>
@@ -56,28 +56,28 @@ export default function BuildReputationPage() {
           <div className="section-inner">
             <div className="section-header">
               <span className="section-tag">Capabilities</span>
-              <h2 className="section-title">Reputation Management</h2>
+              <h2 className="section-title">Authority Management</h2>
               <p className="section-sub">
-                Build authority across Google, Yelp, and specialized automotive review platforms.
+                Build authority across Google, Trustpilot, and specialized industry review platforms.
               </p>
             </div>
 
             <div className="challenges-grid">
               <div className="challenge-card">
-                <h3 className="challenge-title">Google Review Management</h3>
-                <p className="challenge-desc">Improve your local SEO with constant 5-star Google review growth and professional responses.</p>
+                <h3 className="challenge-title">Active Review Growth</h3>
+                <p className="challenge-desc">Improve your local SEO and sector trust with constant 5-star review growth and professional automated responses.</p>
               </div>
               <div className="challenge-card">
-                <h3 className="challenge-title">DealerRater Integration</h3>
-                <p className="challenge-desc">Dominate automotive-specific review sites with automated requests and profile management.</p>
+                <h3 className="challenge-title">Platform Integration</h3>
+                <p className="challenge-desc">Dominate sector-specific review sites with automated requests and centralized profile management.</p>
               </div>
               <div className="challenge-card">
-                <h3 className="challenge-title">Negative Review Filtering</h3>
-                <p className="challenge-desc">Identify and resolve customer concerns before they become public reviews on social platforms.</p>
+                <h3 className="challenge-title">Real-time Monitoring</h3>
+                <p className="challenge-desc">Identify and resolve customer concerns before they become public reviews on social or industry platforms.</p>
               </div>
               <div className="challenge-card">
                 <h3 className="challenge-title">Social Proof Badges</h3>
-                <p className="challenge-desc">Turn your success into trust with automated review widgets and trust badges for your website.</p>
+                <p className="challenge-desc">Turn your success into trust with automated review widgets and trust badges for your website and landing pages.</p>
               </div>
             </div>
           </div>
@@ -89,3 +89,4 @@ export default function BuildReputationPage() {
     </>
   );
 }
+

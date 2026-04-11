@@ -6,8 +6,8 @@ import Footer from "../../components/Footer";
 import CTABand from "../../components/CTABand";
 
 export const metadata: Metadata = {
-  title: "About Our Agency",
-  description: "Learn about Orbiters, the digital agency built exclusively for automotive businesses and SaaS innovators.",
+  title: "About Our Agency | Orbiters",
+  description: "Learn about Orbiters, the digital agency built for high-growth sectors: Fintech, Medicare, and Automotive.",
 };
 
 export default function CompanyPage() {
@@ -26,11 +26,11 @@ export default function CompanyPage() {
                 About Orbiters
               </div>
               <h1 className="hero-headline">
-                The agency built for the<br />
-                <span className="hl">Future of Automotive.</span>
+                The agency built for<br />
+                <span className="hl">Specialized Growth.</span>
               </h1>
               <p className="hero-sub" style={{ maxWidth: '100%' }}>
-                We aren't just another digital agency. We are a team of automotive enthusiasts, data scientists, and creative designers dedicated to accelerating your brand's growth in an increasingly digital world.
+                We aren't just another digital agency. We are a team of industry veterans, data scientists, and creative designers dedicated to accelerating your brand's growth in high-stakes markets.
               </p>
             </div>
           </div>
@@ -40,32 +40,32 @@ export default function CompanyPage() {
           <div className="section-inner">
             <div className="section-header">
               <span className="section-tag">Our Mission</span>
-              <h2 className="section-title">Driving Innovation Forward</h2>
+              <h2 className="section-title">Driving Sector Excellence</h2>
               <p className="section-sub">
-                Our mission is to empower automotive dealers and SaaS providers with the technological tools and creative strategies they need to dominate their markets.
+                Our mission is to empower innovators in Fintech, Medicare, and Automotive with the technological tools and creative strategies they need to dominate their markets.
               </p>
             </div>
 
             <div className="challenges-grid">
               <div className="challenge-card">
                 <div className="challenge-num">01</div>
-                <h3 className="challenge-title">Exclusivity</h3>
-                <p className="challenge-desc">We work exclusively with automotive brands, giving us an unmatched understanding of the industry's unique challenges and opportunities.</p>
+                <h3 className="challenge-title">Industry Specialization</h3>
+                <p className="challenge-desc">We deep-dive into specialized brands, giving us an unmatched understanding of high-stakes regulatory and market challenges.</p>
               </div>
               <div className="challenge-card">
                 <div className="challenge-num">02</div>
-                <h3 className="challenge-title">Data-Driven</h3>
-                <p className="challenge-desc">Every decision we make is backed by real-time market data and performance analytics to ensure maximum ROI for our clients.</p>
+                <h3 className="challenge-title">Data-Driven ROI</h3>
+                <p className="challenge-desc">Every decision we make is backed by real-time sector data and performance analytics to ensure maximum ROI for our clients.</p>
               </div>
               <div className="challenge-card">
                 <div className="challenge-num">03</div>
-                <h3 className="challenge-title">Full-Stack Experts</h3>
-                <p className="challenge-desc">From complex SaaS builds to multi-channel advertising campaigns, we provide the complete technical engine for your business.</p>
+                <h3 className="challenge-title">Full-Stack Capability</h3>
+                <p className="challenge-desc">From complex platform builds to multi-channel acquisition campaigns, we provide the complete technical engine for your business.</p>
               </div>
               <div className="challenge-card">
                 <div className="challenge-num">04</div>
-                <h3 className="challenge-title">Global Vision</h3>
-                <p className="challenge-desc">Headquartered in Khulna with a global perspective, we help brands scale across borders and cultures.</p>
+                <h3 className="challenge-title">Global Perspective</h3>
+                <p className="challenge-desc">Headquartered in Khulna with a global footprint, we help specialized brands scale across borders and cultures.</p>
               </div>
             </div>
           </div>
@@ -77,3 +77,4 @@ export default function CompanyPage() {
     </>
   );
 }
+

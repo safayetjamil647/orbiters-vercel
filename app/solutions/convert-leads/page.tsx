@@ -6,8 +6,8 @@ import Footer from "../../../components/Footer";
 import CTABand from "../../../components/CTABand";
 
 export const metadata: Metadata = {
-  title: "Convert More Leads | High-Performance Landings & Chat",
-  description: "Turn your automotive traffic into showroom appointments with optimized landing pages and smart chat tools.",
+  title: "Convert More Leads | High-Performance Acquisition",
+  description: "Turn your specialized traffic into active clients with optimized landing pages and smart conversion tools built for Fintech and Medicare.",
 };
 
 export default function ConvertLeadsPage() {
@@ -27,10 +27,10 @@ export default function ConvertLeadsPage() {
               </div>
               <h1 className="hero-headline">
                 Turn your traffic<br />
-                <span className="hl">into Showroom Visits.</span>
+                <span className="hl">into Active Clients.</span>
               </h1>
               <p className="hero-sub">
-                Don't let high-intent traffic slip through your fingers. Our lead conversion tools and workflows ensure no prospect is ever left waiting.
+                Don't let high-intent traffic slip through your fingers. Our lead conversion tools and specialized workflows ensure no prospect is ever left waiting.
               </p>
             </div>
             <div className="hero-right">
@@ -39,14 +39,14 @@ export default function ConvertLeadsPage() {
                   <div className="hero-card-icon">💬</div>
                   <div className="hero-card-title">Smart Chat Tools</div>
                 </div>
-                <div className="hero-card-desc">Engage prospects in real-time with automated or agent-led chat that guides them toward booking a test drive.</div>
+                <div className="hero-card-desc">Engage prospects in real-time with automated or agent-led chat that guides them toward booking a consultation or demo.</div>
               </div>
               <div className="hero-card">
                 <div className="hero-card-top">
                   <div className="hero-card-icon">🚀</div>
                   <div className="hero-card-title">High-Performance Landing Pages</div>
                 </div>
-                <div className="hero-card-desc">Speed and conversion-optimized landing pages designed to drive action for every campaign you run.</div>
+                <div className="hero-card-desc">Speed and conversion-optimized landing pages designed to drive action for high-stakes financial and healthcare campaigns.</div>
               </div>
             </div>
           </div>
@@ -58,26 +58,26 @@ export default function ConvertLeadsPage() {
               <span className="section-tag">Capabilities</span>
               <h2 className="section-title">Conversion Mastery</h2>
               <p className="section-sub">
-                Our suite of conversion tools works 24/7 to capture, qualify, and route your automotive leads.
+                Our suite of conversion tools works 24/7 to capture, qualify, and route your specialized leads.
               </p>
             </div>
 
             <div className="challenges-grid">
               <div className="challenge-card">
                 <h3 className="challenge-title">Automated Follow-up</h3>
-                <p className="challenge-desc">Smart email and SMS workflows that touch base with leads immediately after their inquiry.</p>
+                <p className="challenge-desc">Smart email and SMS workflows that touch base with leads immediately after their inquiry, keeping engagement high.</p>
               </div>
               <div className="challenge-card">
-                <h3 className="challenge-title">CRM Integrations</h3>
-                <p className="challenge-desc">Native integrations with all major automotive CRMs ensuring leads flow perfectly to your sales team.</p>
+                <h3 className="challenge-title">Sector CRM Integrations</h3>
+                <p className="challenge-desc">Native integrations with specialized CRMs (banking, medical, auto) ensuring leads flow perfectly to your team.</p>
               </div>
               <div className="challenge-card">
                 <h3 className="challenge-title">Lead Attribution</h3>
-                <p className="challenge-desc">Deep analytics to understand exactly which campaigns are driving your showroom's most profitable leads.</p>
+                <p className="challenge-desc">Deep analytics to understand exactly which campaigns are driving your most profitable sector leads.</p>
               </div>
               <div className="challenge-card">
                 <h3 className="challenge-title">A/B Testing</h3>
-                <p className="challenge-desc">Constant optimization of headlines, copy, and forms to ensure lowest cost-per-lead for your budget.</p>
+                <p className="challenge-desc">Constant optimization of headlines, copy, and forms to ensure lowest cost-per-acquisition for your budget.</p>
               </div>
             </div>
           </div>
@@ -89,3 +89,4 @@ export default function ConvertLeadsPage() {
     </>
   );
 }
+
