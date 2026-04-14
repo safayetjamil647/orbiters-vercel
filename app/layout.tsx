@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Sora, Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import JsonLd from "../components/JsonLd";
 import { Analytics } from "@vercel/analytics/next";
