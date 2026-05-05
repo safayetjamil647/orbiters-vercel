@@ -92,35 +92,13 @@ nav {
 .nav-logo {
   display: flex; align-items: center; gap: 10px;
 }
-.logo-mark {
-  width: 32px; height: 32px;
-  background: var(--navy);
-  border-radius: 8px;
-  display: flex; align-items: center; justify-content: center;
-  position: relative;
+.nav-logo-img {
+  height: auto;
+  width: auto;
+  max-height: 30px;
+  object-fit: contain;
 }
-.logo-mark::before {
-  content: '';
-  width: 14px; height: 14px;
-  border-radius: 50%;
-  border: 2px solid var(--teal);
-  position: absolute;
-}
-.logo-mark::after {
-  content: '';
-  width: 6px; height: 6px;
-  border-radius: 50%;
-  background: var(--teal);
-  position: absolute;
-}
-.logo-text {
-  font-family: var(--font-sora), sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  color: var(--navy);
-  letter-spacing: -0.5px;
-}
-.logo-text span { color: var(--teal); }
+
 
 .nav-menu { display: flex; align-items: center; gap: 4px; }
 .nav-item { position: relative; }
@@ -337,7 +315,7 @@ nav {
 /* ─── CHALLENGES ─── */
 .section-challenges {
   background: var(--white);
-  padding: 80px 48px;
+  padding: 32px 24px;
 }
 .section-inner { max-width: 1200px; margin: 0 auto; }
 .section-header { text-align: center; margin-bottom: 48px; }
@@ -660,37 +638,16 @@ footer {
 }
 .footer-grid {
   max-width: 1200px; margin: 0 auto;
-  display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
-  gap: 48px; margin-bottom: 48px;
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 48px; margin-bottom: 48px;
 }
 .footer-logo-wrap { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
-.footer-logo-mark {
-  width: 28px; height: 28px;
-  background: var(--navy-light);
-  border-radius: 7px;
-  display: flex; align-items: center; justify-content: center;
-  position: relative;
+.footer-logo-img {
+  height: auto;
+  width: auto;
+  max-height: 40px;
+  object-fit: contain;
 }
-.footer-logo-mark::before {
-  content: '';
-  width: 12px; height: 12px;
-  border-radius: 50%;
-  border: 1.5px solid var(--teal);
-  position: absolute;
-}
-.footer-logo-mark::after {
-  content: '';
-  width: 5px; height: 5px;
-  border-radius: 50%;
-  background: var(--teal);
-  position: absolute;
-}
-.footer-logo-text {
-  font-family: var(--font-sora), sans-serif;
-  font-weight: 800; font-size: 16px;
-  color: white; letter-spacing: -0.5px;
-}
-.footer-logo-text span { color: var(--teal); }
+
 .footer-desc {
   font-size: 13px; line-height: 1.7;
   color: rgba(255,255,255,0.35);

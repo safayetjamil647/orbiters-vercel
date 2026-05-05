@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,8 +10,14 @@ export default function Navbar() {
   return (
     <nav className={isOpen ? "nav-open" : ""}>
       <Link href="/" className="nav-logo">
-        <div className="logo-mark"></div>
-        <span className="logo-text">ORBIT<span>ERS</span></span>
+        <Image 
+          src="/Orbiter%20Logo.svg" 
+          alt="Orbiters Logo" 
+          width={120} 
+          height={40} 
+          className="nav-logo-img"
+          priority
+        />
       </Link>
 
       <button className="nav-toggle" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle menu">

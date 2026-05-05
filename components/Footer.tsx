@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -7,8 +8,13 @@ export default function Footer() {
       <div className="footer-grid">
         <div className="footer-brand">
           <Link href="/" className="footer-logo-wrap">
-            <div className="footer-logo-mark"></div>
-            <span className="footer-logo-text">ORBIT<span>ERS</span></span>
+            <Image 
+              src="/Orbiter%20Logo%20Footer.svg" 
+              alt="Orbiters Logo" 
+              width={180} 
+              height={40} 
+              className="footer-logo-img"
+            />
           </Link>
           <p className="footer-desc">Digital marketing and design agency built for Fintech, Medicare, and Automotive scale-ups worldwide.</p>
           <div className="footer-contact">
